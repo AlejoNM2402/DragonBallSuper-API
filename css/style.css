@@ -1,0 +1,204 @@
+body{
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-image: linear-gradient(to bottom, #ffc107, #ff9800);
+    min-height: 100vh;
+}
+
+header {
+    text-align: center;
+    padding: 20px 0;
+    margin-bottom: 30px;
+}
+
+header img {
+    max-width: 300px;
+}
+
+h1 {
+    color: #e53935;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+    font-size: 2.5rem;
+    font-family: ;
+}
+
+.tabs {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.tab {
+    padding: 12px 24px;
+    background-color: #f57c00;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin: 0 5px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    transition: all 0.3s;
+}
+
+.tab:hover {
+    background-color: #ff9800;
+}
+
+.tab.active {
+    background-color: #e53935;
+}
+
+.content-section {
+    display: none;
+}
+
+.content-section.active {
+    display: block;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.card {
+    background: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card-image {
+    height: 250px;
+    overflow: hidden;
+    position: relative;
+    background-color: #f5f5f5;
+}
+
+.card-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center top;
+}
+
+.card-content {
+    padding: 15px;
+}
+
+.card h3 {
+    margin-top: 0;
+    color: #e53935;
+    font-size: 18px;
+}
+
+.card p {
+    margin: 5px 0;
+    font-size: 14px;
+}
+
+.loading {
+    text-align: center;
+    padding: 40px;
+    font-size: 20px;
+    color: #e53935;
+}
+
+.search-container {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#search-input {
+    padding: 10px;
+    width: 300px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    font-size: 16px;
+}
+
+.no-results {
+    text-align: center;
+    padding: 40px;
+    font-size: 18px;
+}
+
+.stat-bar {
+    height: 10px;
+    background-color: #e0e0e0;
+    border-radius: 5px;
+    margin: 5px 0;
+}
+
+.stat-fill {
+    height: 100%;
+    background-color: #e53935;
+    border-radius: 5px;
+}
+
+.error-message {
+    text-align: center;
+    color: #e53935;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    margin: 20px 0;
+}
+
+.debug-info {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: rgba(0, 0, 0, 0.05);
+    border-radius: 5px;
+    font-family: monospace;
+    font-size: 14px;
+    max-height: 200px;
+    overflow-y: auto;
+}
+
+.planet-details {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.planet-residents {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+
+.resident-tag {
+    background-color: #f57c00;
+    color: white;
+    padding: 3px 8px;
+    border-radius: 10px;
+    font-size: 12px;
+}
+
+.planet-icon {
+    margin-right: 5px;
+    color: #f57c00;
+}
+
+.planet-destroyed {
+    color: #e53935;
+    font-weight: bold;
+}
+
+.planet-not-destroyed {
+    color: #4caf50;
+    font-weight: bold;
+}

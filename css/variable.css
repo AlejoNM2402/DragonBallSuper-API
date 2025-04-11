@@ -1,1 +1,4 @@
-font
+@font-face {
+    font-family: "dragon";
+    src: url(../storage/fonts/saiyan-sans/Saiyan-Sans\ Left\ Oblique.ttf);
+}

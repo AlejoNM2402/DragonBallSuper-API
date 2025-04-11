@@ -5,7 +5,7 @@ const predefinedPlanets = [
         id: 1,
         name: "Tierra",
         description: "Planeta de origen de los humanos y hogar de muchos de los personajes principales.",
-        image: "https://dragonball-api.com/api/planets/earth.jpg",
+        image: "https://tse3.mm.bing.net/th?id=OIP.eUXR2nUXqYBqtF6Mtog0WwHaFj&pid=Api&P=0&h=180",
         isDestroyed: false,
         residents: ["Goku", "Gohan", "Krillin", "Bulma", "Vegeta"],
         gravity: "Normal (1G)",
@@ -16,7 +16,7 @@ const predefinedPlanets = [
         id: 2,
         name: "Planet Vegeta",
         description: "Planeta natal de los Saiyajin, destruido por Freezer.",
-        image: "https://dragonball-api.com/api/planets/vegeta.jpg",
+        image: "https://tse1.mm.bing.net/th?id=OIP.SqDHZD28DsZWVY09dQPb1QHaFj&pid=Api&P=0&h=180",
         isDestroyed: true,
         residents: ["Rey Vegeta", "Bardock", "Raditz", "Nappa"],
         gravity: "Alta (10G)",
@@ -27,7 +27,7 @@ const predefinedPlanets = [
         id: 3,
         name: "Namek",
         description: "Planeta de origen de los Namekianos, con tres soles que nunca permiten la noche.",
-        image: "https://dragonball-api.com/api/planets/namek.jpg",
+        image: "https://tse1.mm.bing.net/th?id=OIP.E2TDi1FJ9LwCI2ezm2cTDwHaFj&pid=Api&P=0&h=180",
         isDestroyed: true,
         residents: ["Guru", "Nail", "Dende", "Moori"],
         gravity: "Ligeramente mayor que la Tierra",
@@ -38,7 +38,7 @@ const predefinedPlanets = [
         id: 4,
         name: "Nuevo Namek",
         description: "Planeta donde se reubicaron los Namekianos tras la destrucción de su planeta original.",
-        image: "https://dragonball-api.com/api/planets/newnamek.jpg",
+        image: "https://tse4.mm.bing.net/th?id=OIP.Qn5yoP94EY8WsbMg_OwnEgHaFj&pid=Api&P=0&h=180",
         isDestroyed: false,
         residents: ["Moori", "Dende"],
         gravity: "Similar a Namek",
@@ -49,7 +49,7 @@ const predefinedPlanets = [
         id: 5,
         name: "Planeta Freezer #79",
         description: "Base principal de operaciones para el ejército de Freezer.",
-        image: "https://dragonball-api.com/api/planets/freezer79.jpg",
+        image: "https://tse3.mm.bing.net/th?id=OIP.oloIWPokLR67TIO4a-WaoAHaFj&pid=Api&P=0&h=180",
         isDestroyed: false,
         residents: ["Soldados de Freezer"],
         gravity: "Desconocida",
@@ -60,7 +60,7 @@ const predefinedPlanets = [
         id: 6,
         name: "Planeta Yardrat",
         description: "Planeta donde Goku aprende la técnica de Transmisión Instantánea.",
-        image: "https://dragonball-api.com/api/planets/yardrat.jpg",
+        image: "https://tse1.mm.bing.net/th?id=OIP.NCH40E4bHRrsk0bRpi6B_AHaFj&pid=Api&P=0&h=180",
         isDestroyed: false,
         residents: ["Yardrats"],
         gravity: "Desconocida",
@@ -71,7 +71,7 @@ const predefinedPlanets = [
         id: 7,
         name: "Planeta Vampa",
         description: "Planeta árido y hostil donde Broly fue exiliado.",
-        image: "https://dragonball-api.com/api/planets/vampa.jpg",
+        image: "https://tse3.mm.bing.net/th?id=OIP.BaJNOieHRIZLg0_mbt2sqgHaEK&pid=Api&P=0&h=180",
         isDestroyed: false,
         residents: ["Broly", "Paragus", "Bah"],
         gravity: "Alta",
@@ -82,7 +82,7 @@ const predefinedPlanets = [
         id: 8,
         name: "Planeta Supremo",
         description: "Hogar de los Kaioshin, los dioses creadores del universo.",
-        image: "https://dragonball-api.com/api/planets/kaiplanet.jpg",
+        image: "https://vignette.wikia.nocookie.net/dragonball/images/6/6f/Planeta_Sagrado.png/revision/latest?cb=20180512215148&path-prefix=es",
         isDestroyed: false,
         residents: ["Shin", "Kibito", "Anciano Kaioshin"],
         gravity: "Desconocida",
@@ -93,7 +93,7 @@ const predefinedPlanets = [
         id: 9,
         name: "Planeta Cereal",
         description: "Hogar de los Cerealians, conquistado por los Saiyajin bajo órdenes de Freezer.",
-        image: "https://dragonball-api.com/api/planets/cereal.jpg",
+        image: "https://i.pinimg.com/originals/e5/60/16/e560160c3dcc8e034a47c469b99ab663.jpg",
         isDestroyed: false,
         residents: ["Granolah", "Monaito"],
         gravity: "Similar a la Tierra",
@@ -104,7 +104,7 @@ const predefinedPlanets = [
         id: 10,
         name: "Planeta Beerus",
         description: "Hogar del Dios de la Destrucción Beerus y su asistente Whis.",
-        image: "https://dragonball-api.com/api/planets/beerus.jpg",
+        image: "https://tse1.mm.bing.net/th?id=OIP.P9YXv-diEZmgU_I8VrsGhQHaEK&pid=Api&P=0&h=180",
         isDestroyed: false,
         residents: ["Beerus", "Whis"],
         gravity: "Desconocida",
@@ -115,7 +115,7 @@ const predefinedPlanets = [
         id: 11,
         name: "Planeta Zeno",
         description: "Residencia del Rey de Todo (Zeno-sama), la entidad más poderosa del multiverso.",
-        image: "https://dragonball-api.com/api/planets/zeno.jpg",
+        image: "https://vignette.wikia.nocookie.net/dragonuniverse/images/e/eb/Zeno_Palace.png/revision/latest?cb=20160822095740",
         isDestroyed: false,
         residents: ["Zeno", "Gran Sacerdote", "Guardias de Zeno"],
         gravity: "Desconocida",
@@ -126,7 +126,7 @@ const predefinedPlanets = [
         id: 12,
         name: "Planeta Potaufeu",
         description: "Planeta donde se encuentra el 'Agua Superhumana', capaz de clonar habilidades.",
-        image: "https://dragonball-api.com/api/planets/potaufeu.jpg",
+        image: "https://tse1.mm.bing.net/th?id=OIP.M3qg0pTxrJT5qg3QHHWThQHaEK&pid=Api&P=0&h=180",
         isDestroyed: false,
         residents: ["Potage"],
         gravity: "Similar a la Tierra",
@@ -137,7 +137,7 @@ const predefinedPlanets = [
         id: 13,
         name: "Planeta Sadala (U6)",
         description: "Planeta natal de los Saiyajin del Universo 6, que evolucionaron de forma pacífica.",
-        image: "https://dragonball-api.com/api/planets/sadala.jpg",
+        image: "https://tse1.mm.bing.net/th?id=OIP.mQWP_JsppZAncQbd4dOqqgAAAA&pid=Api&P=0&h=180",
         isDestroyed: false,
         residents: ["Cabba", "Saiyajin del U6"],
         gravity: "Alta",
@@ -148,7 +148,7 @@ const predefinedPlanets = [
         id: 14,
         name: "Planeta Kaioshin (U7)",
         description: "Hogar sagrado de los Kaioshin del Universo 7.",
-        image: "https://dragonball-api.com/api/planets/kaiplanet.jpg",
+        image: "https://tse3.mm.bing.net/th?id=OIP.FxyGYny2oFctYJtLHLP9tgHaFj&pid=Api&P=0&h=180",
         isDestroyed: false,
         residents: ["Shin", "Kibito", "Anciano Kaioshin"],
         gravity: "Desconocida",
@@ -159,7 +159,7 @@ const predefinedPlanets = [
         id: 15,
         name: "Planeta del Universo 11",
         description: "Hogar de las Tropas del Orgullo, un grupo de superhéroes liderados por Toppo.",
-        image: "https://dragonball-api.com/api/planets/u11.jpg",
+        image: "https://tse4.mm.bing.net/th?id=OIP.yFU5IcDjh3LUjxh3ETiUiAAAAA&pid=Api&P=0&h=180",
         isDestroyed: false,
         residents: ["Jiren", "Toppo", "Dyspo"],
         gravity: "Desconocida",
@@ -170,7 +170,7 @@ const predefinedPlanets = [
         id: 16,
         name: "Planeta Metamor",
         description: "Lugar de origen de la técnica de fusión Metamoran, usada por Goku y Vegeta.",
-        image: "https://dragonball-api.com/api/planets/metamor.jpg",
+        image: "https://tse4.mm.bing.net/th?id=OIP.fd0wyKrGtyaSxN7gtzCdIQHaEM&pid=Api&P=0&h=180",
         isDestroyed: false,
         residents: ["Metamoranos"],
         gravity: "Desconocida",
@@ -181,7 +181,7 @@ const predefinedPlanets = [
         id: 17,
         name: "Planeta del Gran Kaio",
         description: "Lugar donde residen los guerreros heroicos fallecidos y el Gran Kaio.",
-        image: "https://dragonball-api.com/api/planets/grandkai.jpg",
+        image: "https://tse4.mm.bing.net/th?id=OIP.fdQH7Pt2qOQRe3eCUksuFAHaFF&pid=Api&P=0&h=180",
         isDestroyed: false,
         residents: ["Gran Kaio", "Olibu", "Paikuhan"],
         gravity: "Similar a la Tierra",
@@ -192,7 +192,7 @@ const predefinedPlanets = [
         id: 18,
         name: "Planeta Prisión Galáctico",
         description: "Prisión de máxima seguridad donde son enviados los criminales más peligrosos de la galaxia.",
-        image: "https://dragonball-api.com/api/planets/prison.jpg",
+        image: "https://tse4.mm.bing.net/th?id=OIP.axZCq1uVyii4j4ZPqAxuPQHaEK&pid=Api&P=0&h=180",
         isDestroyed: false,
         residents: ["Criminales galácticos", "Moro"],
         gravity: "Alta",
@@ -203,7 +203,7 @@ const predefinedPlanets = [
         id: 19,
         name: "Planeta Konats",
         description: "Planeta natal de Tapion y su hermano Minosha, atacado por Hirudegarn.",
-        image: "https://dragonball-api.com/api/planets/konats.jpg",
+        image: "https://tse2.mm.bing.net/th?id=OIP.o-z5-vFL8ING3CG-IDJOjAAAAA&pid=Api&P=0&h=180",
         isDestroyed: false,
         residents: ["Tapion", "Minosha"],
         gravity: "Similar a la Tierra",
@@ -214,7 +214,7 @@ const predefinedPlanets = [
         id: 20,
         name: "Planeta Imegga",
         description: "Planeta con avanzada tecnología y altos impuestos, gobernado por Don Kee.",
-        image: "https://dragonball-api.com/api/planets/imegga.jpg",
+        image: "https://tse3.mm.bing.net/th?id=OIP.10c9sWjtGpXAc56qJAcZhwHaFj&pid=Api&P=0&h=180",
         isDestroyed: false,
         residents: ["Don Kee", "Ledgic"],
         gravity: "Similar a la Tierra",
@@ -304,7 +304,7 @@ async function loadAllDragonBallData() {
     const endpoints = ['characters', 'planets'];
     const allData = {};
 
-     for (const endpoint of endpoints) {
+    for (const endpoint of endpoints) {
         showDebug(`Iniciando carga de ${endpoint}...`);
         try {
             allData[endpoint] = await loadAllData(endpoint);
@@ -315,7 +315,7 @@ async function loadAllDragonBallData() {
         }
     }
 
-     document.getElementById('loading').style.display = 'none';
+    document.getElementById('loading').style.display = 'none';
     updateUI(allData);
     
     window.dragonBallData = allData;  // Guardamos los datos para buscar luego
@@ -462,7 +462,7 @@ function setupSearch() {
         
         if (!data) return;
         
-        // Buscar en la sección activa
+        
         const activeSection = document.querySelector('.content-section.active');
         const activeTab = document.querySelector('.tab.active').getAttribute('data-target');
         
@@ -472,11 +472,11 @@ function setupSearch() {
                 return name.toLowerCase().includes(searchTerm);
             });
             
-            // Crear un objeto temporal con solo los datos filtrados
+            
             const tempData = {};
             tempData[activeTab] = filteredData;
             
-            // Actualizar la sección activa
+            
             updateUI(tempData);
         }
     });
@@ -495,7 +495,6 @@ function showError(message) {
 function showDebug(message) {
     const debugContainer = document.getElementById('debug-container');
     const timestamp = new Date().toLocaleTimeString();
-    debugContainer.innerHTML += `<div>[${timestamp}] ${message}</div>`;
     debugContainer.scrollTop = debugContainer.scrollHeight;
 }
 
@@ -510,4 +509,4 @@ document.addEventListener('DOMContentLoaded', () => {
         showError(`Error general: ${error.message}`);
         document.getElementById('loading').style.display = 'none';
     });
-});
+}); 

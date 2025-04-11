@@ -5,7 +5,11 @@ body{
     max-width: 1200px;
     margin: 0 auto;
     padding: 20px;
-    background-image: linear-gradient(to bottom, #ffc107, #ff9800);
+    background-image: url("https://wallpaperaccess.com/full/629604.jpg");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center;
+    background-size: cover;
     min-height: 100vh;
 }
 
@@ -20,10 +24,11 @@ header img {
 }
 
 h1 {
-    color: #e53935;
-    text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+    color: black;
+    /* text-shadow: 2px 2px 4px rgba(0,0,0,0.3); */
     font-size: 2.5rem;
-    font-family: ;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 80px;
 }
 
 .tabs {

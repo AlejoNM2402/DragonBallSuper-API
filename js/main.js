@@ -251,13 +251,13 @@ async function loadAllData(endpoint) {
     showDebug(`Comenzando carga de datos para: ${endpoint}`);
     let allData = [];
     
-    // Si estamos cargando planetas, usamos los datos predefinidos
+    // Datos predefinidos para cargar los planetas
     if (endpoint === 'planets') {
         showDebug(`Usando datos predefinidos para planetas`);
         return predefinedPlanets;
     }
     
-    // Para otros endpoints, cargamos desde la API
+    // Carga d endpoints desde la api
     const firstPageData = await loadDataPage(endpoint, 1);
     
     if (!firstPageData) {
@@ -265,16 +265,13 @@ async function loadAllData(endpoint) {
         return [];
     }
     
-    // Verificar la estructura de la respuesta
     if (firstPageData.items && Array.isArray(firstPageData.items)) {
         // Añadir los elementos de la primera página
         allData = [...firstPageData.items];
         
-        // Determinar el número total de páginas según los metadatos
         const totalPages = firstPageData.meta?.totalPages || 1;
         showDebug(`Detectadas ${totalPages} páginas en total para ${endpoint}`);
         
-        // Cargar páginas adicionales si hay más de una
         if (totalPages > 1) {
             for (let page = 2; page <= totalPages; page++) {
                 showDebug(`Cargando página ${page} de ${totalPages} para ${endpoint}`);
@@ -299,7 +296,7 @@ async function loadAllData(endpoint) {
     return allData;
 }
 
- // Función principal para cargar todos los datos de la API
+ // Funcion para cargar todos los datos d la api
 async function loadAllDragonBallData() {
     const endpoints = ['characters', 'planets'];
     const allData = {};
@@ -323,8 +320,9 @@ async function loadAllDragonBallData() {
     return allData;
 }
 
- // Función para actualizar la interfaz
+ // Funciòn actualizadora d la interfaz
 function updateUI(data) {
+
     // Personajes
     const charactersSection = document.getElementById('characters-section');
     if (charactersSection && data.characters && data.characters.length > 0) {
@@ -336,7 +334,7 @@ function updateUI(data) {
             const card = document.createElement('div');
             card.className = 'card';
             
-            // Extraer información del personaje
+            // Extracciòn de la informaciòn d los personajes
             const name = character.name || 'Sin nombre';
             const image = character.image || '/api/placeholder/240/200';
             const race = character.race || 'Desconocida';
@@ -366,7 +364,7 @@ function updateUI(data) {
         charactersSection.innerHTML = '<div class="no-results">No se encontraron personajes</div>';
     }
     
-    // Planetas con datos más detallados
+    // Datos detallados d los planetas
     const planetsSection = document.getElementById('planets-section');
     if (planetsSection && data.planets && data.planets.length > 0) {
         showDebug(`Actualizando UI con ${data.planets.length} planetas detallados`);
@@ -377,13 +375,13 @@ function updateUI(data) {
             const card = document.createElement('div');
             card.className = 'card';
             
-            // Crear tarjetas con información detallada de los planetas
+            // Crear las tarjetas d los planetas
             const name = planet.name || 'Sin nombre';
             const image = planet.image || '/api/placeholder/240/200';
             const description = planet.description || 'Sin descripción';
             const isDestroyed = planet.isDestroyed;
             
-            // Mostrar residentes en etiquetas
+            // Mostrar residentes d los planetas en etiquetas
             let residentsHTML = '';
             if (planet.residents && planet.residents.length > 0) {
                 let residentTags = planet.residents.map(resident => 
@@ -397,7 +395,7 @@ function updateUI(data) {
                 residentsHTML = `<p><strong>Residentes:</strong> Desconocidos</p>`;
             }
             
-            // Estado del planeta (destruido o no)
+            // Estado d los planeta (destruido o no)
             const statusClass = isDestroyed ? 'planet-destroyed' : 'planet-not-destroyed';
             const statusText = isDestroyed ? 'Destruido' : 'Intacto';
             
@@ -482,7 +480,7 @@ function setupSearch() {
     });
 }
 
-// Función para mostrar errores
+// Función mensajes d error
 function showError(message) {
     const errorContainer = document.getElementById('error-container');
     const errorDiv = document.createElement('div');
@@ -498,7 +496,7 @@ function showDebug(message) {
     debugContainer.scrollTop = debugContainer.scrollHeight;
 }
 
- // Iniciar la aplicación cuando la página se cargue
+ // Inciciar el js cuando cargue la pagina
 document.addEventListener('DOMContentLoaded', () => {
     setupTabs();
     showDebug('Iniciando aplicación...');
@@ -510,3 +508,4 @@ document.addEventListener('DOMContentLoaded', () => {
         document.getElementById('loading').style.display = 'none';
     });
 }); 
+
